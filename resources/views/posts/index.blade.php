@@ -11,12 +11,13 @@
   <h1>投稿一覧</h1>
   <table>
     <tr>
-      <th>タイトル</tr>
-      <th>本文</th>
+      <td>タイトル</td>
+      <td>本文</td>
+    </tr>
     @foreach($posts as $post)
       <tr>
-        <td>{{ $posts->title}}</td>
-        <td>{{ $posts->content}}</td>
+        <td>{{$post->title}}</td>
+        <td>{{$post->content}}</td>
       </tr>            
       @endforeach       
 
