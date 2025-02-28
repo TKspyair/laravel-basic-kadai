@@ -15,8 +15,8 @@
        </tr>
        <tr>
            <th>商品名</th>
-           <td>{{ $post->title }}</td>
-       </tr>
+           <td>{{ $post->title }}</td>       
+      </tr>
        <tr>
            <th>価格</th>
            <td>{{ $post->content}}</td>
